@@ -1,0 +1,47 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.container{
+    border: 2px solid brown;
+    width: 75%;
+    height: 25rem;
+    background-color: #f8efed;
+    color: #330e3f;
+    margin: 7rem;
+    
+}
+img{
+    float: left;
+    width: 25%;
+    height: 20rem;
+    padding: 2.5rem;
+}
+.write  {
+   margin-top: 3.5rem;  
+   
+   height: 20rem;
+}
+p{
+    margin-top: 3rem;
+    
+}
+ul{
+    
+    margin-left: 10rem;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        
+      
+      width: 100%;
+      height: 50rem;
+    }
+
+    img{
+        float: none;
+        width: 80%;
+    }
+  }
